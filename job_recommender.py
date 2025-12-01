@@ -13,7 +13,7 @@ pd.set_option('display.max_colwidth', None)  # 열의 너비 제한 없애기
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
-USER_DATA_PATH = "./USER_DATA_NEW_v0.1.csv"
+USER_DATA_PATH = "./USER_DATA.csv"
 JOB_DATA_PATH = "./JOB_DATA.csv"
 
 JOB_FEATURES = ["직무", "담당업무"]
