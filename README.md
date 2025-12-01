@@ -1,4 +1,4 @@
-# 03-IITP-DABT-JobMatching
+# Job Recommendation
 
 This repository provides a job recommendation script that matches users to job postings using TF-IDF and cosine similarity.  
 User preferences (e.g., desired job type) are compared against job descriptions to recommend the most relevant job postings.
