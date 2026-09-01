@@ -22,8 +22,11 @@ pip install torchvision==0.24.0+cu128
 ```
 
 ## Data
-* `USER_DATA.csv`: This file contains user information and preference data. Each user is assigned a unique internal UserID during loading.
-* `JOB_DATA.csv`: This file contains job postings used for recommendation. Each job is assigned a unique internal JobID.
+* `dataset/USER_DATA.csv`: This file contains user information and preference data. Each user is assigned a unique internal UserID during loading.
+* `dataset/JOB_DATA.csv`: This file contains job postings used for recommendation. Each job is assigned a unique internal JobID.
+
+Personal data in `JOB_DATA.csv` (contact names, phone numbers, e-mail addresses) is masked.
+See `dataset/README.md` for the masking rules and `mask_pii.py` for the implementation.
 
 
 
